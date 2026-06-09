@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.28.3
 
 COPY . /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
