@@ -34,7 +34,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo 'Deploying application...'
+                echo 'Deploying  jdk application...'
                 // Add deployment commands here
             }
         }
